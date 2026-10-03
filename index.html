@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ФИКС &mdash; ремонт телефонов, ноутбуков и приставок в Москве</title>
+<meta name="description" content="Сервисный центр ФИКС: ремонт смартфонов, ноутбуков, планшетов и игровых приставок. Бесплатная диагностика, замена экрана за 40 минут, гарантия до 6 месяцев. Узнайте цену онлайн.">
+<meta name="theme-color" content="#F3F5F9">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#top"><span class="logo-mark">Ф</span>ФИКС</a>
+  <nav class="menu">
+    <a href="#calc">Цены</a>
+    <a href="#services">Что чиним</a>
+    <a href="#status">Статус ремонта</a>
+    <a href="#faq">Вопросы</a>
+  </nav>
+  <a class="nav-phone" href="tel:+74950000000">+7 495 000-00-00</a>
+  <a class="btn btn-blue btn-sm" href="#form">Записаться</a>
+</header>
+
+<!-- ПЕРВЫЙ ЭКРАН -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <span class="pill reveal"><i class="dot"></i>Сейчас работаем · без выходных 10:00–21:00</span>
+      <h1 class="reveal">Починим телефон, пока вы пьете кофе</h1>
+      <p class="reveal">Ремонт смартфонов, ноутбуков, планшетов и приставок. Экран
+        и аккумулятор меняем при вас за 20–40 минут. Цену называем до начала работ
+        и не меняем без вашего согласия.</p>
+      <div class="hero-act reveal">
+        <a class="btn btn-blue" href="#calc">Узнать цену ремонта</a>
+        <a class="btn btn-line" href="#form">Вызвать курьера</a>
+      </div>
+      <ul class="hero-facts reveal">
+        <li><b>0 ₽</b><span>диагностика</span></li>
+        <li><b>20 мин</b><span>замена аккумулятора</span></li>
+        <li><b>6 мес</b><span>гарантия на работу</span></li>
+      </ul>
+    </div>
+    <figure class="hero-photo reveal">
+      <img src="assets/hero.jpg" alt="Мастер ремонтирует смартфон под лампой-лупой" fetchpriority="high">
+      <figcaption class="hero-badge"><b>4,9 ★</b><span>2 300 отзывов на картах</span></figcaption>
+    </figure>
+  </div>
+  <div class="wrap brands reveal">
+    <span>Apple</span><span>Samsung</span><span>Xiaomi</span><span>Huawei</span>
+    <span>Lenovo</span><span>ASUS</span><span>PlayStation</span><span>Xbox</span>
+  </div>
+</section>
+
+<!-- КАЛЬКУЛЯТОР -->
+<section class="section calc-sec" id="calc">
+  <div class="wrap">
+    <div class="head">
+      <span class="kicker reveal">Калькулятор</span>
+      <h2 class="reveal">Сколько стоит ремонт</h2>
+      <p class="reveal">Выберите устройство и что с ним случилось. Цена — ориентир по нашему прайсу,
+        точную назовем после бесплатной диагностики.</p>
+    </div>
+
+    <div class="calc reveal">
+      <div class="calc-steps">
+        <div class="calc-row">
+          <p class="calc-label"><span>1</span>Устройство</p>
+          <div class="chips" id="devices" role="radiogroup" aria-label="Устройство"></div>
+        </div>
+        <div class="calc-row">
+          <p class="calc-label"><span>2</span>Производитель</p>
+          <div class="chips" id="brands" role="radiogroup" aria-label="Производитель"></div>
+        </div>
+        <div class="calc-row">
+          <p class="calc-label"><span>3</span>Что случилось</p>
+          <div class="chips" id="faults" role="radiogroup" aria-label="Неисправность"></div>
+        </div>
+      </div>
+
+      <aside class="calc-res" aria-live="polite">
+        <p class="res-what" id="resWhat">Смартфон · Apple</p>
+        <h3 id="resFault">Замена экрана</h3>
+        <p class="res-price" id="resPrice">—</p>
+        <dl class="res-list">
+          <div><dt>Ремонт займет</dt><dd id="resTime">—</dd></div>
+          <div><dt>Гарантия</dt><dd id="resWarranty">—</dd></div>
+          <div><dt>Диагностика</dt><dd>бесплатно</dd></div>
+        </dl>
+        <a class="btn btn-blue btn-wide" href="#form" id="toForm">Записаться на ремонт</a>
+        <p class="res-note">Если ремонт не понадобится или вы откажетесь — диагностика все равно бесплатна.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ЧТО ЧИНИМ -->
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="head">
+      <span class="kicker reveal">Что чиним</span>
+      <h2 class="reveal">От разбитого экрана до ремонта платы</h2>
+    </div>
+    <div class="services">
+      <article class="svc svc-big reveal">
+        <img src="assets/phone.jpg" alt="Смартфон с разбитым экраном на ремонтном коврике" loading="lazy">
+        <div class="svc-in"><h3>Смартфоны</h3>
+          <p>Экраны, аккумуляторы, разъемы, камеры, после воды. Популярные запчасти всегда на складе.</p>
+          <span class="svc-from">от 1 000 ₽</span></div>
+      </article>
+      <article class="svc reveal">
+        <img src="assets/laptop.jpg" alt="Чистка ноутбука от пыли" loading="lazy">
+        <div class="svc-in"><h3>Ноутбуки</h3>
+          <p>Чистка и термопаста, матрицы, клавиатуры, апгрейд SSD и памяти.</p>
+          <span class="svc-from">от 1 500 ₽</span></div>
+      </article>
+      <article class="svc reveal">
+        <img src="assets/console.jpg" alt="Разобранная игровая приставка на столе мастера" loading="lazy">
+        <div class="svc-in"><h3>Приставки</h3>
+          <p>HDMI-разъем, перегрев и шум, дрифт стиков у геймпадов.</p>
+          <span class="svc-from">от 1 500 ₽</span></div>
+      </article>
+      <article class="svc reveal">
+        <img src="assets/solder.jpg" alt="Пайка микросхемы на плате" loading="lazy">
+        <div class="svc-in"><h3>Сложный ремонт плат</h3>
+          <p>Микропайка, восстановление после воды и падений, когда другие отказали.</p>
+          <span class="svc-from">после диагностики</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ПОЧЕМУ МЫ -->
+<section class="section why-sec">
+  <div class="wrap">
+    <div class="head">
+      <span class="kicker reveal">Почему ФИКС</span>
+      <h2 class="reveal">Ремонт без сюрпризов</h2>
+    </div>
+    <div class="why">
+      <div class="why-item reveal"><span class="why-ic">01</span><h3>Цена не вырастет</h3>
+        <p>Называем стоимость после диагностики. Если найдем что-то еще — сначала позвоним
+          и спросим, только потом чиним.</p></div>
+      <div class="why-item reveal"><span class="why-ic">02</span><h3>Ремонт при вас</h3>
+        <p>Экран и аккумулятор меняем в зоне ожидания за стеклом — видно каждый шаг.</p></div>
+      <div class="why-item reveal"><span class="why-ic">03</span><h3>Запчасти на выбор</h3>
+        <p>Оригинал или качественная копия — объясним разницу и покажем цену обоих вариантов.</p></div>
+      <div class="why-item reveal"><span class="why-ic">04</span><h3>Данные в сохранности</h3>
+        <p>Не просим пароль, если он не нужен для проверки. Фото и переписки остаются на месте.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- СТАТУС РЕМОНТА -->
+<section class="section status-sec" id="status">
+  <div class="wrap status-grid">
+    <div>
+      <span class="kicker reveal">Статус ремонта</span>
+      <h2 class="reveal">Где сейчас ваше устройство</h2>
+      <p class="reveal">Введите номер из квитанции — покажем, на каком этапе ремонт.
+        Когда все будет готово, пришлем СМС.</p>
+      <p class="status-demo reveal">Для примера: <button type="button" class="link" data-order="ФК-2417">ФК-2417</button>
+        или <button type="button" class="link" data-order="ФК-1093">ФК-1093</button></p>
+    </div>
+    <div class="status reveal">
+      <form class="status-form" id="statusForm">
+        <label class="field"><span>Номер квитанции</span>
+          <input type="text" id="orderNo" placeholder="ФК-0000" autocomplete="off"></label>
+        <button class="btn btn-blue" type="submit">Проверить</button>
+      </form>
+      <div class="status-out" id="statusOut" hidden>
+        <p class="status-dev" id="statusDev"></p>
+        <ol class="track" id="track">
+          <li>Принят</li><li>Диагностика</li><li>Ремонт</li><li>Готов к выдаче</li>
+        </ol>
+        <p class="status-msg" id="statusMsg"></p>
+      </div>
+      <p class="status-miss" id="statusMiss" hidden>Заказ с таким номером не найден. Проверьте номер в квитанции.</p>
+    </div>
+  </div>
+</section>
+
+<!-- КАК ПРОХОДИТ -->
+<section class="section" id="steps">
+  <div class="wrap steps-grid">
+    <div>
+      <span class="kicker reveal">Как проходит ремонт</span>
+      <h2 class="reveal">Можно даже не приезжать</h2>
+      <ol class="steps">
+        <li class="reveal"><b>Заявка или визит</b><span>Приходите без записи или оставьте заявку — курьер
+          заберет устройство бесплатно при ремонте от 3 000 ₽.</span></li>
+        <li class="reveal"><b>Бесплатная диагностика</b><span>15–30 минут. Называем причину, цену и срок.</span></li>
+        <li class="reveal"><b>Ремонт после «да»</b><span>Ничего не делаем без вашего согласия.
+          Статус можно смотреть на сайте.</span></li>
+        <li class="reveal"><b>Проверка и гарантия</b><span>Проверяем устройство при вас и выдаем
+          гарантийный талон до 6 месяцев.</span></li>
+      </ol>
+    </div>
+    <figure class="steps-photo reveal"><img src="assets/desk.jpg" alt="Стойка приема сервисного центра" loading="lazy"></figure>
+  </div>
+</section>
+
+<!-- ОТЗЫВЫ -->
+<section class="section reviews-sec" id="reviews">
+  <div class="wrap">
+    <div class="head">
+      <span class="kicker reveal">Отзывы</span>
+      <h2 class="reveal">4,9 из 5 на картах</h2>
+    </div>
+    <div class="reviews">
+      <blockquote class="review reveal"><span class="stars">★★★★★</span>
+        <p>Разбил экран на iPhone утром, к обеду уже забрал. Показали оригинал и копию, взял оригинал — разница в цене была честная.</p>
+        <cite>Артем · замена экрана</cite></blockquote>
+      <blockquote class="review reveal"><span class="stars">★★★★★</span>
+        <p>Ноутбук грелся и выключался в играх. Почистили, поменяли термопасту — теперь тихий. Сделали за пару часов.</p>
+        <cite>Наталья · чистка ноутбука</cite></blockquote>
+      <blockquote class="review reveal"><span class="stars">★★★★★</span>
+        <p>PlayStation перестала выводить картинку. В двух сервисах сказали «менять плату», тут просто перепаяли HDMI.</p>
+        <cite>Кирилл · ремонт приставки</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ВОПРОСЫ -->
+<section class="section" id="faq">
+  <div class="wrap faq-grid">
+    <div class="head">
+      <span class="kicker reveal">Вопросы</span>
+      <h2 class="reveal">Частые вопросы</h2>
+    </div>
+    <div class="faq">
+      <details class="reveal"><summary>Диагностика правда бесплатная?</summary>
+        <p>Да, даже если вы решите не чинить. Платно только в одном случае — сложная диагностика
+          платы после воды, и о ней предупредим заранее.</p></details>
+      <details class="reveal"><summary>Какие запчасти вы ставите?</summary>
+        <p>На выбор: оригинальные или качественные аналоги. Перед ремонтом покажем обе цены
+          и объясним разницу — например, по яркости экрана и времени работы батареи.</p></details>
+      <details class="reveal"><summary>Что входит в гарантию?</summary>
+        <p>Работа мастера и установленная деталь. Если что-то перестанет работать по нашей вине —
+          исправим бесплатно. Гарантия не действует при новых падениях и попадании воды.</p></details>
+      <details class="reveal"><summary>Сколько стоит курьер?</summary>
+        <p>При ремонте от 3 000 ₽ — бесплатно в обе стороны в пределах МКАД. В остальных случаях
+          300 ₽ в одну сторону.</p></details>
+      <details class="reveal"><summary>Нужно ли сообщать пароль от телефона?</summary>
+        <p>Нет, если проверить работу можно без него. Если нужен — скажем зачем; можно ввести его
+          самостоятельно при мастере.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ЗАЯВКА -->
+<section class="section form-sec" id="form">
+  <div class="wrap form-grid">
+    <div class="form-info">
+      <span class="kicker reveal">Запись на ремонт</span>
+      <h2 class="reveal">Оставьте заявку — перезвоним за 10 минут</h2>
+      <p class="reveal">Уточним поломку, назовем ориентир по цене и договоримся,
+        когда вы приедете или когда приедет курьер.</p>
+      <div class="contacts reveal">
+        <a href="tel:+74950000000">+7 495 000-00-00</a>
+        <span>м. Новослободская, ул. Примерная, 12</span>
+        <span>Ежедневно 10:00–21:00</span>
+      </div>
+    </div>
+
+    <form class="lead reveal" id="leadForm" novalidate>
+      <label class="field"><span>Как вас зовут</span>
+        <input type="text" id="name" placeholder="Алексей" autocomplete="name"></label>
+      <label class="field"><span>Телефон</span>
+        <input type="tel" id="phone" placeholder="+7 900 000-00-00" autocomplete="tel"></label>
+      <label class="field"><span>Устройство и поломка</span>
+        <textarea id="note" rows="3" placeholder="iPhone 13, разбит экран"></textarea></label>
+      <fieldset class="how">
+        <legend>Как удобнее</legend>
+        <label><input type="radio" name="how" value="self" checked><span>Привезу сам</span></label>
+        <label><input type="radio" name="how" value="courier"><span>Нужен курьер</span></label>
+      </fieldset>
+      <label class="check"><input type="checkbox" id="agree">
+        <span>Согласен на обработку персональных данных</span></label>
+      <button class="btn btn-blue btn-wide" type="submit">Записаться на ремонт</button>
+      <p class="ok" id="ok" hidden>Заявка принята. Перезвоним в течение 10 минут.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap foot-row">
+    <span>ФИКС — сервисный центр</span>
+    <span class="demo">Демонстрационный сайт. Сервис вымышлен, цены условные, фотографии сгенерированы.</span>
+    <a href="https://t.me/VladisavSSS" target="_blank" rel="noopener">Сделал сайт: @VladisavSSS</a>
+  </div>
+</footer>
+
+<a class="call-fab" href="#calc">Узнать цену ремонта</a>
+
+<script src="js/prices.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
